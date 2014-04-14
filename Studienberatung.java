@@ -12,9 +12,13 @@ public class Studienberatung{
 			if(answer.equalsIgnoreCase("j")){
 				System.out.println("Hast du eine Berufsausbildung?");
 			}
+			else if(answer.equalsIgnoreCase("n")){
+				System.out.println("Nicht studieren.");
+			}
 		}
 		else if(answer.equalsIgnoreCase("j")){
 			System.out.println("Bist du wissbegierig?");
+
 		}
 	}
 }
