@@ -25,7 +25,10 @@ public class Studienberatung{
 		}
 		else if(answer.equalsIgnoreCase("j")){
 			System.out.println("Bist du wissbegierig?");
-
+			answer = scanner.nextLine();
+			if(answer.equalsIgnoreCase("j")){
+				System.out.println("Auf jeden Fall studieren!");	
+			}
 		}
 	}
 }
